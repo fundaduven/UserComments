@@ -1,0 +1,47 @@
+.topnav-bar {
+  background-color: #030422;
+  overflow: hidden;
+  padding: 1em;
+  padding-right: 0px;
+}
+
+.topnav-bar a,
+.watch {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 26px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav-left {
+  margin-left: 2em;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.topnav-admin {
+  border: 1px solid white;
+  border-radius: 0.5em;
+}
+
+.watch {
+  font-size: 36px;
+  padding: 0;
+  padding-left: 26px;
+  padding-right: 0.5em;
+}
+
+@media screen and (max-width: 767px) {
+  .topnav-left {
+    margin-left: 0;
+  }
+}
