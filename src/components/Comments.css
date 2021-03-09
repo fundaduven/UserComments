@@ -1,0 +1,36 @@
+.comment-box {
+  border: 0px solid black;
+  border-radius: 0.5em;
+  margin-bottom: 1.5em;
+  background-color: #f3fbff;
+}
+
+.name-email {
+  border-bottom: 0px solid black;
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
+  padding: 1em;
+  background-color: #ebedfe;
+}
+
+.name {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.email {
+  margin-bottom: 0;
+}
+
+.comment {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+@media screen and (max-width: 900px) {
+  .comment-box {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}
