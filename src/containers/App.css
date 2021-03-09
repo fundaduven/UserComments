@@ -1,0 +1,52 @@
+.title {
+  padding: 3em 1em;
+}
+
+.comment-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.comment-button {
+  float: right;
+  background-color: #030422;
+  border-color: #030422;
+  color: white;
+  padding: 14px 26px;
+  border-radius: 0.5em;
+  font-size: 18px;
+}
+
+.screen {
+  padding: 0 12em;
+}
+
+@media screen and (max-width: 1200px) {
+  .screen {
+    padding: 0 4em;
+  }
+  .title {
+    padding: 3em 3em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .screen {
+    padding: 0 0;
+    display: grid;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+  }
+  .comment-button {
+    float: left;
+    margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    padding: 3em 1em;
+  }
+}
